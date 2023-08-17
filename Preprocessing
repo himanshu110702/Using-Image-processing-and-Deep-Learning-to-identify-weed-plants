@@ -1,0 +1,9 @@
+This project is divided into two parts
+1. Preprocessing the dataset.
+2. Using the processed dataset to train the model using deep learning algorithms.
+
+Dataset accquisition: We have used a daaset from Web-sources that contains about 1300 images of crop and weed in YOLO annotation.
+
+convert-tolo-labels-to-pascalvoc-format.ipynb------>preprocessing_1.ipynb----->preprocessing_2.ipynb>>>>upload the dataset into google drive>>>><pumtimg the google drive to the training model>>>Training
+
+Note: The files iou_calculation.py and region_proposals.py contain user defined codes which are used in the file preprocessing_2.ipynb
